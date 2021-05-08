@@ -1,0 +1,25 @@
+html {
+	height: 100%;
+}
+body {
+	text-align: center;
+	height: 100%;
+	background: rgb(255,0,0);
+	background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 100%);
+}
+.btn-outline-dark a {
+	text-decoration: none;
+	color: black;
+}
+.btn-outline-dark a:hover {
+	text-decoration: none;
+}
+.btn-outline-dark:hover a {
+	color: white;
+}
+* {
+	user-select: none;
+}
+p:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+	cursor: text;
+}
