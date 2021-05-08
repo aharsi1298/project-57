@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tim-Berners Lee</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link href="https://fonts.googleapis.com/css3?family=Roboto:wght@100&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="menu.css" />
+		<script>if(typeof module == "object") {window.module = module;module = undefined;}</script>
+		<script src="https://ajax.googleapis.com/ajax/jquery/1.12.2/jquery.min.js"></script>
+		<script src="jquery.menu.js"></script>
+	</head>
+	<body>
+		<section id="welcome">
+			
+			<ul id="menu" class="main-menu">
+				<li class="link">Home</li>
+				<li class="link"><a href="#videos">My Videos</a>
+					<ul>
+						<li><a href="https://www.youtube.com/watch?v=OM6XIICm_qo" onmouseover="show('one')">Tim Berners-Lee: The next Web of open, linked data</a><iframe src="https://www.youtube.com/embed/OM6XIICm_qo"></iframe></li>
+					</ul>
+				</li>
+				<li class="link">About</li>
+				<li class="link">My Work</li>
+				<li class="link">Contacts</li>
+			</ul>
+			
+			<img src="TBLee.png" class="profile" /><br />
+			<h1 style="font-family: 'Arial';">I am</h1>
+			<h3 id="name" style="font-weight: 400;">Tim-Berners Lee</h3>
+			<span>I am the founder of W3 : World Wide Web</span>
+		</section>
+		<section id="bio">
+			<h1>Hi!</h1>
+			<div class="line"></div>
+			<p>Tim Berners-Lee is a software engineer who invented the Internet (or the World Wide Web) in 1989 while at CERN, the European Particle Physics Laboratory. He is director of the World Wide Web Consortium that he founded and a Professor in the Computer Science Department at the University of Oxford. In 2001 he became a Fellow of the Royal Society and in 2004 he was knighted.<br/><br/>In 1994 Berners-Lee founded the World Wide Web Consortium (W3C) at the Laboratory of Computer Science (LCS) at the Massachusetts Institute of Technology in Boston. It was made up of companies that wanted to work together to create Web standards and also improve the Web. It was quickly agreed that the technology should be free of royalties and patents. Berners-Lee has served as director of this W3C since it was founded. In 1995 Microsoft produced the first version of Internet Explorer and this commercial browser created enormous growth in websites and web users. The Web was first used for e-commerce in 1997</p>
+		</section>
+		<section id="videos">
+			<h1>Videos</h1>
+			<hr />
+			<div id="videosContainer">
+				<iframe src="https://www.youtube.com/embed/OM6XIICm_qo" width="900" height="500"></iframe>
+				<iframe src="https://www.youtube.com/embed/rCplocVemjo" width="900" height="500"></iframe>
+				<iframe src="https://www.youtube.com/embed/ykCPFUlasFk" width="900" height="500"></iframe>
+				<p style="font-family: 'Comic Sans MS'">For More Videos, click <a href="videos.html">here</a></p>
+			</div>
+		</section>
+		<section id="about">
+			<h1>About</h1>
+			<iframe src="https://en.wikipedia.com/wiki/Tim_Berners-Lee" width="900" height="1000"></iframe>
+		</section>
+		<script src="scrres.js"></script>
+	</body>
+</html>
